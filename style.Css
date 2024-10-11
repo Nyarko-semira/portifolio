@@ -1,0 +1,152 @@
+html {
+    font-size: 110%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans' , Arial, Helvetica, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+
+header {
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), url(images/lovely-flowers-concept-with-modern-notebook\ -\ Copy.jpg)       
+     center center fixed;
+     background-size: cover;
+     height: 100vh;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+
+}   
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Unica One", cursive;
+    font-size: 1.2rem;
+}
+
+.header-info img{
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.header-info h1, .header-info p {
+    margin: 0,5rem 0;
+    font-family: "Unica One", cursive;
+
+}
+
+#about {
+    background-color:#ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 30%;
+    height: auto;
+    border-radius: 40%;
+}
+
+
+#port {
+    background-color: #0fbfbf;
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+
+
+}
+
+#contact {
+    background-color: #ffbc4b;
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+
+}   
+
+.btn {
+    padding : 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    background-color: #0fbfbf;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* additional styling */
+h2 {
+    color: #333;
+     font-family: 'Unica One ', cursive;
+     font-size: 2,3rem;
+}
+
+a {
+    color : #208479;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color : #208479
+}
+
+@media (max-width : 768px){
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .profile-photo {
+        width: 50%;
+        margin:  0 auto;
+    }
+    
+}
